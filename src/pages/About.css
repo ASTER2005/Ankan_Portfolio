@@ -1,0 +1,131 @@
+.about-content {
+  padding: 2.5rem;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e2e8f0;
+}
+
+.highlight {
+  color: var(--neon-blue);
+  font-weight: 600;
+}
+
+.sub-title {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.skills-education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.skill-category {
+  margin-bottom: 2rem;
+}
+
+.skill-category h4 {
+  font-size: 1.1rem;
+  color: var(--neon-purple);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.skill-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.chip {
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 240, 255, 0.2);
+  border-radius: 50px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.chip:hover {
+  background: rgba(0, 240, 255, 0.1);
+  border-color: var(--neon-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 240, 255, 0.2);
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 0;
+  bottom: -2rem;
+  width: 2px;
+  background: var(--glass-border);
+}
+
+.timeline-item:last-child::before {
+  bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--neon-blue);
+  box-shadow: 0 0 10px var(--neon-blue);
+}
+
+.timeline-content {
+  padding: 1.5rem;
+}
+
+.timeline-content h4 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-content h5 {
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.timeline-content .date {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background: rgba(138, 43, 226, 0.1);
+  color: #d8b4fe;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content .percentage {
+  margin-top: 0.5rem;
+  color: var(--neon-blue);
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .skills-education-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

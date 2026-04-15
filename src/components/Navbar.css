@@ -1,0 +1,78 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 1200px;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #fff;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));
+  transition: width 0.3s ease;
+}
+
+.nav-link.active::after, .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-socials {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-socials a {
+  color: var(--text-muted);
+  transition: all 0.3s ease;
+}
+
+.navbar-socials a:hover {
+  color: var(--neon-blue);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none; /* In a real app, toggle a mobile menu */
+  }
+}

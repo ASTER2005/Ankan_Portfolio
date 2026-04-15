@@ -1,0 +1,85 @@
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.cert-card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.cert-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--neon-blue), var(--neon-purple));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+}
+
+.cert-card:hover::before {
+  opacity: 1;
+}
+
+.cert-icon {
+  margin-bottom: 1.5rem;
+}
+
+.cert-card h3 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.cert-card h4 {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.cert-card .date {
+  margin-top: auto;
+  font-size: 0.8rem;
+  color: var(--neon-purple);
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background: rgba(138, 43, 226, 0.1);
+  border-radius: 4px;
+  align-self: flex-start;
+}
+
+.extra-curricular-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.activity-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.activity-chip:hover {
+  background: rgba(0, 240, 255, 0.05);
+  transform: translateY(-3px);
+  border-color: rgba(0, 240, 255, 0.3);
+}
