@@ -1,18 +1,97 @@
-# React + Vite
+# 🌐 Ankan Sarkar Portfolio
 
-# Project URL: https://ankan-portfolio-liard.vercel.app/
+Welcome to my personal portfolio website!
+This project showcases my skills, projects, and interests in **AI/ML, Cybersecurity, and Software Development**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://ankan-portfolio-mocha.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👨‍💻 About Me
 
-## Expanding the ESLint configuration
+I am a **B.Tech CSE (IoT) student at University of Engineering & Management, Kolkata**, passionate about building intelligent systems using **Artificial Intelligence, Machine Learning, and Cybersecurity**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I enjoy working on real-world projects, especially in:
+
+* 🔐 Cybersecurity & Threat Detection
+* 🤖 AI/ML Systems
+* 💻 Python Development
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** (if applicable, add here)
+* **Languages:** Python, C
+* **Tools:** Git, GitHub, Vercel
+
+---
+
+## 📂 Features
+
+* Responsive and modern UI
+* Projects showcase section
+* Contact section
+* Clean and minimal design
+
+---
+
+## 📸 Preview
+
+(Add screenshots of your website here)
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ASTER2005/Portfolio.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd Portfolio
+```
+
+Run the project:
+
+* Open `index.html` in your browser
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using **Vercel**.
+
+To deploy:
+
+1. Push code to GitHub
+2. Import project in Vercel
+3. Deploy
+
+---
+
+## 📬 Contact
+
+* LinkedIn: (Add your link)
+* Email: (Add your email)
+
+---
+
+## ⭐ Contributing
+
+Contributions are welcome! Feel free to fork this repo and improve it.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
