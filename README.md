@@ -41,10 +41,6 @@ I enjoy working on real-world projects, especially in:
 
 ---
 
-## 📸 Preview
-
-(Add screenshots of your website here)
-
 ---
 
 ## ⚙️ Installation & Setup
@@ -78,11 +74,6 @@ To deploy:
 3. Deploy
 
 ---
-
-## 📬 Contact
-
-* LinkedIn: (Add your link)
-* Email: (Add your email)
 
 ---
 
