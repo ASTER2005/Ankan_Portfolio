@@ -19,7 +19,7 @@ const Home = () => {
           <NavLink to="/projects" className="btn btn-primary">
             View Projects <ArrowRight size={18} />
           </NavLink>
-          <a href="/Ankan Sarkar_12024002034083_Resume.pdf" download className="btn btn-outline" target="_blank" rel="noreferrer">
+          <a href="/resume.pdf" download className="btn btn-outline" target="_blank" rel="noreferrer">
             Download Resume <Download size={18} />
           </a>
         </div>
