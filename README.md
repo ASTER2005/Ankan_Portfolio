@@ -7,7 +7,7 @@ This project showcases my skills, projects, and interests in **AI/ML, Cybersecur
 
 ## 🚀 Live Demo
 
-🔗 https://ankan-portfolio-mocha.vercel.app
+🔗 [https://ankan-portfolio-mocha.vercel.app](https://ankan-portfolio-liard.vercel.app/)
 
 ---
 
