@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Canvas3D from './components/Canvas3D';
 
 // Pages
 import Home from './pages/Home';
@@ -29,11 +30,14 @@ function App() {
 
   return (
     <Router>
-      <div className="app-container">
+      <div className="flex flex-col min-h-screen relative text-white">
+        {/* Layered Background: Radial Mouse Gradient + 3D Particles */}
         <div className="global-bg" />
+        <Canvas3D />
+        
         <Navbar />
         
-        <main className="main-content">
+        <main className="flex-1 w-full max-w-7xl mx-auto px-6 sm:px-10 lg:px-12 mt-28 mb-16 relative z-10">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
