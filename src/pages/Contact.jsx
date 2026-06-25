@@ -24,8 +24,8 @@ const Contact = () => {
   const infoCards = [
     {
       title: "Email",
-      val: "ankan.sarkar2024@uem.edu.in",
-      href: "mailto:ankan.sarkar2024@uem.edu.in",
+      val: "ankan28aug@gmail.com",
+      href: "mailto:ankan28aug@gmail.com",
       icon: <Mail className="text-neon-blue" size={20} />,
       glowColor: "hover:border-neon-blue/30 shadow-neon-blue/5"
     },
@@ -149,7 +149,7 @@ const Contact = () => {
               e.preventDefault();
               const name = document.getElementById('name').value;
               const message = document.getElementById('message').value;
-              window.location.href = `mailto:ankan.sarkar2024@uem.edu.in?subject=Portfolio Contact from ${name}&body=${encodeURIComponent(message)}`;
+              window.location.href = `mailto:ankan28aug@gmail.com?subject=Portfolio Contact from ${name}&body=${encodeURIComponent(message)}`;
             }}
             className="p-8 md:p-10 flex flex-col gap-6 font-mono text-base"
           >
