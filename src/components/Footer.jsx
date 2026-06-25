@@ -29,9 +29,9 @@ const Footer = () => {
                 <Phone size={14} className="text-neon-blue" />
                 <span>+91 7679144582</span>
               </a>
-              <a href="mailto:ankan.sarkar2024@uem.edu.in" className="flex items-center gap-2 hover:text-neon-blue transition-colors duration-300">
+              <a href="mailto:ankan28aug@gmail.com" className="flex items-center gap-2 hover:text-neon-blue transition-colors duration-300">
                 <Mail size={14} className="text-neon-purple" />
-                <span className="truncate">ankan.sarkar2024@uem.edu.in</span>
+                <span className="truncate">ankan28aug@gmail.com</span>
               </a>
             </div>
           </div>
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-between pt-6 text-xs text-gray-500 gap-4 relative z-10">
-          <span className="text-gray-400">B.Tech CSE (IoT) . Aspiring AI/ML Engineer. NLP</span>
+          <span className="text-gray-400">B.Tech CSE (IoT)  .  Aspiring AI/ML Engineer . NLP</span>
           <p>&copy; 2026 Ankan Sarkar. All rights reserved.</p>
         </div>
       </div>
