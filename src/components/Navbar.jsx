@@ -17,13 +17,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 px-6 sm:px-10 lg:px-12 py-4">
+    <nav className="fixed top-0 left-0 w-full z-50 px-4 sm:px-6 lg:px-8 py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3 glass-panel rounded-full relative">
         {/* Brand Logo */}
         <NavLink to="/" className="text-2xl font-heading font-extrabold tracking-tight text-gradient-primary">
           AS.
         </NavLink>
-        
+
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-6">
           {links.map((link) => (
@@ -31,8 +31,7 @@ const Navbar = () => {
               key={link.path}
               to={link.path}
               className={({ isActive }) =>
-                `text-base font-semibold transition-all duration-300 relative py-1.5 px-4 rounded-full hover:text-neon-blue ${
-                  isActive ? 'text-neon-blue bg-white/5 shadow-inner' : 'text-gray-400 hover:text-white'
+                `text-base font-semibold transition-all duration-300 relative py-1.5 px-4 rounded-full hover:text-neon-blue ${isActive ? 'text-neon-blue bg-white/5 shadow-inner' : 'text-gray-400 hover:text-white'
                 }`
               }
             >
@@ -62,7 +61,7 @@ const Navbar = () => {
             <FaLinkedin size={20} />
           </a>
           <a
-            href="mailto:ankan.sarkar2024@uem.edu.in"
+            href="mailto:ankan28aug@gmail.com"
             className="hover:text-neon-blue transition-colors duration-300"
             title="Email"
           >
@@ -96,8 +95,7 @@ const Navbar = () => {
                   to={link.path}
                   onClick={() => setMobileMenuOpen(false)}
                   className={({ isActive }) =>
-                    `text-lg font-medium py-2 px-6 rounded-full w-full text-center transition-all duration-300 ${
-                      isActive ? 'text-neon-blue bg-white/5 shadow-inner' : 'text-gray-300 hover:text-neon-blue'
+                    `text-lg font-medium py-2 px-6 rounded-full w-full text-center transition-all duration-300 ${isActive ? 'text-neon-blue bg-white/5 shadow-inner' : 'text-gray-300 hover:text-neon-blue'
                     }`
                   }
                 >
@@ -125,7 +123,7 @@ const Navbar = () => {
                 <FaLinkedin size={22} />
               </a>
               <a
-                href="mailto:ankan.sarkar2024@uem.edu.in"
+                href="mailto:ankan28aug@gmail.com"
                 className="hover:text-neon-blue transition-colors duration-300"
               >
                 <Mail size={22} />
